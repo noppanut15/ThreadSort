@@ -91,7 +91,7 @@ int main()
     printf("\nSTEP 1: Separate a list:\n"); printOneTwoSeparate(one, two);
 
     // -- Sort the separated values -------------------------------------------------------
-    printf("\nSTEP 2: Simultaneously sort the separated values:\n");
+    printf("\nSTEP 2: Simultaneously sort the separated lists:\n");
     thread first(bubble_sort, 1, ref(one));
     thread second(bubble_sort, 2, ref(two));
     first.join();
