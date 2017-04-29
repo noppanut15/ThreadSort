@@ -1,0 +1,2 @@
+g++ -c main.cpp -pthread -std=c++11         // generate target object file
+g++ main.o -o main.out -pthread -std=c++11  // link to target binary
