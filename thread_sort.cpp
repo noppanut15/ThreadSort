@@ -13,7 +13,7 @@ void alignment(){
 
 void bubble_sort(int threadId, vector<int>& vec){
     printf("\tThread[%d]‐‐started\n", threadId);
-    sleep(2);
+    sleep(3);
     int temp;
     int start = 0;
     int end = vec.size();

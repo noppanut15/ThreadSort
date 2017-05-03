@@ -12,7 +12,7 @@ void alignment(){
 
 void bubble_sort(int listNumber, vector<int>& vec){
     printf("\tList #%d‐‐started\n", listNumber);
-    sleep(2);
+    sleep(3);
     int temp;
     int start = 0;
     int end = vec.size();
